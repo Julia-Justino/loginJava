@@ -30,6 +30,13 @@ public class Main {
                }else {
                    System.out.println( "Seja bem - vindo" );
                    System.out.println( "Armazenamento total: "+dados.getArmazenamentoTotal()*1000 + "Mb");
+                   System.out.println("CPU: " + dados.getCpu());
+                   System.out.println("RAM: "+dados.getRam());
+                   System.out.println("Interfaces: "+dados.getInterfaces());
+                   System.out.println("Poncentagem de uso (CPU): " + dados.getPorcentagemUsoCpu());
+                   System.out.println("Poncentagem de uso (RAM): "+dados.getPorcentagemUsoRam());
+                   System.out.println("Processos " + dados.getProcessos() );
+
                }
                 break;
             case 2:
